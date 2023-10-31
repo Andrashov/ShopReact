@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: var(--font-family, sans-serif);
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Обнуление стилей для HTML и BODY */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Обнуление стилей для списков */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Обнуление стилей для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Обнуление стилей для ссылок */
+a {
+    text-decoration: none;
+}
+
+/* Обнуление стилей для текстовых элементов */
+p,
+span,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Обнуление стилей для изображений */
+img {
+    border: 0;
+}
+
+/* Обнуление стилей для форм и элементов форм */
+form,
+input,
+textarea,
+button,
+select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Обнуление стилей для таблиц */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
